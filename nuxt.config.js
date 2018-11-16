@@ -27,7 +27,9 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    // 'element-ui/lib/theme-chalk/rest.css',
+    'element-ui/lib/theme-chalk/index.css',
+    '~assets/css/main.css'
   ],
 
   /*
@@ -68,6 +70,7 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    cache: false
   }
 }
